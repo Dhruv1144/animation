@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        div{height: 100px;
+            width: 100px;
+            background-color: cadetblue;
+            animation: square;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+            animation-play-state: running;}
+            @keyframes square{
+                0%{background-color: black;left: 0px;top: 0px;transform: rotate(0deg);}
+                25%{background-color: yellow;left: 100px;top: 50px;transform: rotate3d(90deg);}
+                50%{background-color: blueviolet;left: 50px;top: 100px;transform: rotate3d(180deg);}
+                75%{background-color: blue;left: 200px;top: 200px;transform: rotate3d(270deg);}
+                100%{background-color: violet;left: 0px;top: 0px;transform: rotate(360deg);}
+            }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>
